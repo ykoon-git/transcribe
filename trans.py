@@ -49,7 +49,7 @@ def main():
             media_sample_rate_hz=RATE,
             media_encoding="pcm",
         )
-
+740917
         # 이벤트 핸들러 연결
         handler = MyEventHandler(stream_response.transcript_result_stream)
         stream_response.add_event_handler(handler)
